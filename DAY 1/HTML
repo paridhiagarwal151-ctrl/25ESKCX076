@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Student Profile Page</title>
+    </head>
+    <body>
+        <center>
+            <h1>PARIDHI AGARWAL</h1>
+            <p>HEY ! I am Paridhi Agarwal</p>
+            <p>I am a student in SKIT </p>
+            
+            <img src="C:\Users\Paridhi\OneDrive\Pictures\Screenshots\astatic.jpeg"  alt="Paridhi's Profile Picture"/>
+            <br><br>
+
+    
+        </center>
+
+        <div>
+            <h4>OBJECTIVE</h4>
+            <p>My Objective is to get placed in one of the best company  </p>
+        </div>
+
+        <div>
+            <h4>EDU QUALIFICATION</h4>
+            <p>12th class and Ist year completed  </p>
+            
+            <table border="1px">
+                <tr align="center">
+                    <th>Degree/Class</th>
+                    <th>SCHOOL/UNI</th>
+                    <th>Year</th>
+                    <th>CGPA/Percentage</th>
+                </tr>
+                <tr align="center">
+                    <td>B.TECH.</td>
+                    <td>SKIT</td>
+                    <td>1st Year</td>
+                    <td>8 CGPA</td>
+                </tr>
+                <tr align="center">
+                    <td>12th</td>
+                    <td>School</td>
+                    <td>Pass</td>
+                    <td>85 Percentage</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h4>SKILLS & CERTIFICATES</h4>
+            <ol>
+                
+                <li>Python & Basic Web Development (HTML)</li>
+                <li>Fluency in English and Hindi </li>
+                <li>Digital Workflow Tools (Canva, Gamma, WPS Office)</li>
+                 <li>Participation: Competitions & Challenges on Unstop</li>
+                <li>Project Experience: Government School Human Values Survey</li>
+            </ol>    
+        </div>
+
+        <div>
+            <h4>CONTACT FORM</h4>
+            <form action="submitform()">
+                <p>NAME: <input type="text"></p>
+                <p>Email id: <input type="email"></p>
+                <p>Message: <input type="text"></p>
+                <p><input type="button" value="Clear"><input type="submit"></p>
+            </form>
+        </div>
+
+    </body>
+</html>

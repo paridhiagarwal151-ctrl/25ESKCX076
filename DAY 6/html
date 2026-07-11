@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Directory Assignment</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container py-5">
+        <!-- Header Section -->
+        <div class="row align-items-center mb-4">
+            <div class="col-md-6">
+                <h1 class="fw-bold">Product Catalog</h1>
+                <p class="text-muted">API Data Swap Project</p>
+            </div>
+            <!-- Bonus: Card Count Badge -->
+            <div class="col-md-6 text-md-end">
+                <span class="badge bg-primary rounded-pill badge-count">
+                    Products Found: <span id="count-badge">0</span>
+                </span>
+            </div>
+        </div>
+
+        <!-- Bonus: Search / Filter Input Bar -->
+        <div class="row mb-4">
+            <div class="col-md-6 mx-auto">
+                <input type="text" id="search-input" class="form-control form-control-lg shadow-sm"
+                    placeholder="Search products by title...">
+            </div>
+        </div>
+
+        <!-- Requirements: Loading State -->
+        <div id="loading-state" class="flex-column justify-content-center align-items-center">
+            <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+            <span class="mt-2 text-muted fw-semibold">Fetching products...</span>
+        </div>
+
+        <!-- Requirements: Error Handling -->
+        <div id="error-state" class="alert alert-danger d-none shadow-sm" role="alert">
+            <h4 class="alert-heading fw-bold">Data Fetch Failed</h4>
+            <p id="error-message" class="mb-0">Something went wrong while connecting to the API endpoint.</p>
+        </div>
+
+        <!-- Requirements: Bootstrap Card Grid Area -->
+        <div id="grid-container" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Dynamic API generated Bootstrap cards load here -->
+        </div>
+    </div>
+
+    <!-- JavaScript Application Logic -->
+    <script scr="js/script.js"></script>
+</body>
+
+</html>
